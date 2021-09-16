@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 3 Notes</title>
+    </head>
+    <body>
+        <! - - first link to su website - - >
+        <a href="http://www.syr.edu"> The SU Website </a><br>
+        <a href="http://amazon.com"> Amazon </a>
+        < ! - - link to a file in the same folder -- >
+        <a href="week2notes.html"> Week 2 Notes </a>
+        < ! = = path to something in a different folder -->
+        <a href="../ Lab02/Lab02.html"> Lab02</a>
+    </body>
+</html>
