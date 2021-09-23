@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 4 Forms</title>
+    </head>
+    <body>
+       <form action="" method="POST"> 
+           <!-- lables are associated with form tgs by the value in the
+        for attribute in label, and the id attribute in the form tag-->  
+           
+           <label for="fullname" > Enter Full Name:</label>
+           <input type="text" id="fullname" name="fname"> 
+    <label for="complaint"> Describe Your Complaint:</label>
+<textarea id="complaint" name="complaint"> Enter your complaint here:</textarea><br>
+
+<!-- radio buttons are linked together using the same value for name all the labels
+ for attribute values must be unique-->
+<p>How angry are you</p>
+<br>
+<input type="radio" id="angry1" name="angry" value="very angry">
+<label for="angry1"> very angry</label> <br>
+
+<input type="radio" id="angry2" name="angry" value="not too angry">
+<label for="angry2"> not too angry</label> 
+        <br>
+<label for="contactmethod"> How could would you like to be contacted</label>
+<select id="contactmethod" name="contactmethod">
+    <option value="phone">phone</option>
+    <option value="email">email</option>
+    <option value="snailmail">snailmail</option>
+</select>
+   <br>     
+  <label for="contacttime"> Can we contact you at night?</label>
+  <input type = "checkbox" id="contacttime" name="contacttime" value="yes">
+  <br>
+
+        <input type="submit" value="send my compaint">  
+    </body>
+</html>
