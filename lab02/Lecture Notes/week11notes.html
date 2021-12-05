@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 11 Notes Accessibility</title>
+        <style>
+
+#skip{ 
+    position:absolute; /* relative to parent container*/
+    left: -999px; /* moves it off the page */
+    background-color: orange;
+}
+#skip:focus {
+    left:10px;
+}
+
+        </style>
+    </head>
+
+    <body>
+    <!-- skip to content is an anchor link and the # symbol specifies where we are going on the page-->
+        <a id="skip" href="maincontent">Skip to Content</a>
+    <!--tabindex is a new attribute that says what order elements are in when using tab key to surf-->
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+     The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De
+      Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:</p>
+
+<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+        The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De
+         Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:</p>
+
+
+         <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+            The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De
+             Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:</p>
+
+
+             <p> This is where the page content is: <br>
+                 Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+                The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De
+                 Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:</p>
+
+</body>
+       
