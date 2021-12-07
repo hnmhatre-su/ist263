@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Floats and Flexbox Practice</title>
+		<meta charset="utf-8">
+		<style>
+body {background-color: #aaffe6;}
+.part1{display:flex;}
+
+.part2 article {padding: 20px;}
+.article1, .article2, .article3 {margin:10px;}
+.article1 {flex:2; order: 3; background-color: #5da2ec; border-radius: 1em;}
+
+/* trying to add flexbox*/
+
+.part2{display: flex;}
+.part2 article {padding: 20px;}
+.article1, .article2, .article3 {margin:10px;}
+.article1 {flex:2; order: 3;}
+.article2 {flex:1; order: 2;}
+.article3 {flex:1; order: 1;}
+
+.article2{float:left;}
+
+.article3 {flex:1; order: 1;}
+		</style>
+	</head>
+	<body>
+        <h1>Our Oceans</h1>
+    
+        <div class="part1">
+            <article>
+            
+                <div class="img1"> <img src="turtle.jpg" width="1600" 
+                    height="600"alt="turtle style="float:right;"></div> 
+
+                <p style="font-size:25px;">It is often thought that rainforests are the primary source of oxygen on the planet, but the truth is that rainforests are only responsible
+                 for 28% of the oxygen on earth while oceans are responsible for the 70%. Oceans provide a global force of nature, allowing the inclusion of 95% of all the space available to life. In many ways, the ocean controls our climate. </p>
+            </article>
+
+           
+        </div>
+
+        
+       <center> <h2 style="font-size: 40px">Fun Fact!</h2> </center>
+        <div class="part2">
+            <article class="article1">
+                <img src="ocean.jpg" width="300" 
+                height="300" class="p2img1" alt="ocean">
+            <img src="ocean2.jpg" width="300" 
+                height="300" alt="ocean2">
+                <img src="ocean3.jpg" width="300" 
+                height="300" class="p2img1" alt="ocean3">
+                <img src="ocean4.jpg" width="300" 
+                height="300" class="p2img1" alt="ocean4">
+                <p style="font-size: 35px;">Did you know that no matter where you live, every ten breaths you take, seven come from the ocean!</p>
+        
+            </article>
+            <article class="article2">
+                <img src="icecap.jpg" width="600" 
+                height="400" class="p2img2" alt="icecap">                
+                <p style="font-size:25px;">As the climate responds to decades of increasing carbon emissions, 
+                the store of energy and heat from the atmosphere builds up in the ocean. If we reach a tipping point, we will likely see more extreme weather events, changing ocean currents,
+                 rising sea levels and temperatures, and melting of sea ice and ice sheets</p>     
+                 
+                 
+            </article>
+            <article class="article3">
+       
+                
+            </article>
+        </div>
+	</body>
+</html>
