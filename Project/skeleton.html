@@ -5,48 +5,32 @@
         <title>Skeleton Draft</title>
     </head>
     <body>
-        <nav>
-            <a href="skeleton.html"> Home |  </a>
-            <a href="endangered.html"> Endangered | </a>
-            <a href="change.html"> Change </a>
-            <br>
-            <hr>
-
+                    <style>
             
-           
-            <br>
-
-<hr> 
-<div class="part1">
-    <article>
-    
-        <div class="img1"> <img src="turtle.jpg" width="1800" 
-            height="600"alt="turtle style="float:right;"></div> 
-
-        <p>It is often thought that rainforests are the primary source of oxygen on the planet, but the truth is that rainforests are only responsible
-         for 28% of the oxygen on earth while oceans are responsible for the 70%. Oceans provide a global force of nature, allowing the inclusion of 95% of all the space available to life. In many ways, the ocean controls our climate. </p>
-    </article>
-
-<br>
-<style>
-
-body {background-color: #aaffe6;}
-.img1{float:right; margin-right: 25px;position: relative; 
-  top: 125px;}
-.clear{clear:both;}
-
-
-
-h1{ color:#ff006f;}
-body{color:#3DB2FF;}
-nav{background-color: #92f8ff;
-    border: 5px solid #000;
-    padding: 15px; 
-    margin:40px;
-    margin-bottom:40px;
-    }
-
-@media screen { outline-style: flex-flow: resize: font-display: ;;;;
+            
+            body {background-color: #aaffe6;}
+            .part1{display:flex;}
+            
+            .part2 article {padding: 20px;}
+            .article1, .article2, .article3 {margin:10px;}
+            .article1 { background-color: #5da2ec; border-radius: 1em;}
+            .part4 { background-color: #a8cdf5d8; border-radius: 1em;}
+            .article2{ background-color: #a8cdf5d8; border-radius: 1em;}
+            
+            /* trying to add flexbox*/
+            
+            .part2{display: flex;}
+            .part2 article {padding: 20px;}
+            .article1, .article2, .article3 {margin:10px;}
+            
+            .article2 {flex:1; order: 2;}
+            .article3 {flex:1; order: 1;}
+            h1{font-family:'Montserrat', sans-serif;}
+            
+            .article2{float:left;}
+            
+            .article3 {flex:1; order: 1;}
+            @media screen { outline-style: flex-flow: resize: font-display: ;;;;
     
 }
 nav a:visited{color: #0077ff;}
@@ -56,4 +40,62 @@ nav a:hover {text-decoration-style: wavy;
 .quote{float: right;} 
 
 </style>
+
+              
+             
+                    <nav>
+                       <center> <a href="skeleton.html"> Home |  </a>
+                        <a href="endangered.html"> Endangered | </a>
+                        <a href="change.html"> Change </a>
+                    </center>
+                        <br>
+                        <hr>
+                    <center><h1>Save Our Oceans</h1></center>
+                
+                    <div class="part1">
+                        <article>
+                        
+                            <div class="img1"> <img src="turtle.jpg" width="1600" 
+                                height="600"alt="turtle style="float:right;"></div> 
+                    </article>
+                    </div>
+                    <div class="part4">
+                        <article>
+                            <p style="font-size:25px;">It is often thought that rainforests are the primary source of oxygen on the planet, but the truth is that rainforests are only responsible
+                             for 28% of the oxygen on earth while oceans are responsible for the 70%. Oceans provide a global force of nature, allowing the inclusion of 95% of all the space available to life. In many ways, the ocean controls our climate. </p>
+                        </article>
+            
+                       
+                    </div>
+            
+                    
+                    <h2 style="font-size: 40px">Fun Fact!</h2> 
+                    <div class="part2">
+                        <article class="article1">
+                            <img src="ocean.jpg" width="300" 
+                            height="300" class="p2img1" alt="ocean">
+                        <img src="ocean2.jpg" width="300" 
+                            height="300" alt="ocean2">
+                           
+                            <p style="font-size: 35px;">Did you know that no matter where you live, every ten breaths you take, seven come from the ocean!</p> <br>
+                            <p style="font-size: 35px;">About 94 percent of the earth’s wildlife is found in the ocean.</p>
+                        </article>
+                        <article class="article2">
+                            <img src="icecap.jpg" width="600" 
+                            height="400" class="p2img2" alt="icecap">                
+                            <p style="font-size:25px;">As the climate responds to decades of increasing carbon emissions, 
+                            the store of energy and heat from the atmosphere builds up in the ocean. If we reach a tipping point, we will likely see more extreme weather events, changing ocean currents,
+                             rising sea levels and temperatures, and melting of sea ice and ice sheets</p>     
+                             
+                             
+                        </article>
+                        <article class="article3">
+                   
+                            
+                        </article>
+                    </div>
+                </body>
+            </html>
+
+
 
