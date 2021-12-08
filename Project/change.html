@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SLideshow Animals</title>
+    <style>
+  
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            background-color: #aaffe6;
+            color: #ffffff;
+        }
+        #slideshow-container {
+            background-color: #aaffe6;
+            width: 1200px;
+            margin: auto;     
+        }
+        #bigimages {margin-right: 100px; float: left;}
+        #thumbnails {width: 840px; margin: auto; padding-top: 20px;  display:flex;} 
+        #animalinfo {padding: 100px;}
+       
+        #babyturtlethumb, #dugongthumb, #orcathumb, #polarbearthumb, #sealthumb, #sharkthumb, #whalethumb, #pinguthumb 
+        {width: 100px;}
+        #babyturtleinfo, #dugonginfo, #orcainfo, #polarbearinfo, #sealinfo, #sharkinfo, #whaleinfo, #pinguinfo {display: none;}
+        #babyturtle, #dugong, #orca, #polarbear, #seal, #shark, #whale, #pingu {display: none;}
+        .clear {clear: both;}
+        nav{
+    padding:15px;
+    margin: bottom 30px;
+    }
+    nav a {color:#2000f3;
+            padding: 15px;
+             margin: bottom 30px;
+             background-color:#0fece1;
+             border-radius: 1em ; solid #272343;
+    }
+    nav a:hover{color:rgb(0, 172, 252);
+      }
+    
+    
+body {background-color:#e3f6f5;
+    font-family:'Montserrat', sans-serif; 
+    color: #272343;}
+h2{font-family:'Montserrat', sans-serif; }
+p{font-family:'Montserrat', sans-serif;}
+        
+    </style>
+    <script>
+       function animalOff () {
+           document.getElementById('babyturtle').style.display = 'none';
+           document.getElementById('dugong').style.display = 'none';
+           document.getElementById('orca').style.display = 'none';
+           document.getElementById('polarbear').style.display = 'none';
+           document.getElementById('seal').style.display = 'none';
+           document.getElementById('shark').style.display = 'none';
+           document.getElementById('whale').style.display = 'none';
+           document.getElementById('pingu').style.display = 'none';
+           document.getElementById('babyturtleinfo').style.display = 'none';
+           document.getElementById('dugonginfo').style.display = 'none';
+           document.getElementById('orcainfo').style.display = 'none';
+           document.getElementById('polarbearinfo').style.display = 'none';
+           document.getElementById('sealinfo').style.display = 'none';
+           document.getElementById('sharkinfo').style.display = 'none';
+           document.getElementById('whaleinfo').style.display = 'none';
+           document.getElementById('pinguinfo').style.display = 'none';
+       }
+       function babyturtleOn () {
+           document.getElementById('babyturtle').style.display = 'block';
+           document.getElementById('babyturtleinfo').style.display = 'block'; 
+       }
+       function dugongOn () {
+           document.getElementById('dugong').style.display = 'block';
+           document.getElementById('dugonginfo').style.display = 'block'; 
+       }
+       function orcaOn () {
+           document.getElementById('orca').style.display = 'block';
+           document.getElementById('orcainfo').style.display = 'block'; 
+       }
+       function polarbearOn () {
+           document.getElementById('polarbear').style.display = 'block';
+           document.getElementById('polarbearinfo').style.display = 'block'; 
+       }
+       function sealOn () {
+           document.getElementById('seal').style.display = 'block';
+           document.getElementById('sealinfo').style.display = 'block'; 
+       }
+       function sharkOn () {
+           document.getElementById('shark').style.display = 'block';
+           document.getElementById('sharkinfo').style.display = 'block'; 
+       }
+       function whaleOn () {
+           document.getElementById('whale').style.display = 'block';
+           document.getElementById('whaleinfo').style.display = 'block'; 
+       }
+       function pinguOn () {
+           document.getElementById('pingu').style.display = 'block';
+           document.getElementById('pinguinfo').style.display = 'block'; 
+       }
+    
+    </script>
+</head>
+<body>
+    <nav>
+        <center> <a href="skeleton.html"> Home   </a>
+         <a href="endangered.html"> Change  </a>
+         <a href="change.html"> Endangered </a>
+     </center>
+<div id="slideshow-container">
+    <div id="bigimages">
+        <img src="babyturtle.jpg" width="600"  height="400" alt="babyturtle" id="babyturtle">
+        <img src="dugong.jpg" width="600"  height="400" alt="dugong" id="dugong">
+        <img src="orca.jpg" width="600"  height="400" alt="orca" id="orca">
+        <img src="polarbear.jpg" alt="polarbear" id="polarbear">
+        <img src="seal.jpg" width="600"  height="400" alt="seal" id="seal">
+        <img src="shark.jpg" width="600"  height="400" alt="shark" id="shark">
+        <img src="whale.jpg" width="600"  height="400" alt="whale" id="whale">
+        <img src="pingu.jpg" width="600"  height="400" alt="pingu" id="pingu">
+       
+    </div>
+    <div id="animalinfo">        
+        <h1>Endangered Species List</h1>
+        <h2>Click the animals for more info!</h2>
+    </div>
+        
+        <div id="babyturtleinfo">
+            <h2>Leatherback Turtles</h2> 
+            <p style="font-size: 20px;">Along with the drastic changes in climate, turtle nesting sites are heavily impacted as it alters sand temperatures; affecting the sex of the turtles. </p>
+            <p style="font-size: 20px;"> Places found: Mesoamerican Reef, Coastal East Africa, Coral Triangle, The Galápagos, Gulf of California </p>
+        </div>
+        <div id="dugonginfo">
+            <h2>Dugong</h2>
+            <p>Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the second-brightest natural object in the night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible to the naked eye in broad daylight. Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a bit before dawn. Venus orbits the Sun every 224.7 Earth days. </p>
+        </div>
+        <div id="orcainfo">
+            <h2>Orca</h2>
+            <p>Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also lakes, rivers and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice.</p>
+        </div>
+        <div id="polarbearinfo">
+            <h2>Polar Bear</h2>
+            <p>Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.</p>
+        </div>
+        <div id="sealinfo">
+            <h2>Seal</h2>
+            <p>Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined. Jupiter is one of the brightest objects visible to the naked eye in the night sky, and has been known to ancient civilizations since before recorded history. It is named after the Roman god Jupiter.</p>
+        </div>
+        <div id="sharkinfo">
+            <h2>Shark</h2>
+            <p>Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine times that of Earth. It only has one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.</p>
+        </div>
+        <div id="whaleinfo">
+            <h2>Whale</h2>
+            <p>Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. </p>
+        </div>
+      <div id="pinguinfo">
+            <h2>Penguin</h2>
+            <p>Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. </p>
+    </div>
+    <div class="clear"></div>
+    <div id="thumbnails">
+        <img src="babyturtle.jpg" alt="babyturtle" id="babyturtlethumb" onclick="animalOff(); babyturtleOn();">
+        <img src="dugong.jpg" alt="dugong" id="dugongthumb" onclick="animalOff(); dugongOn();">
+        <img src="orca.jpg" alt="orca" id="orcathumb" onclick="animalOff(); orcaOn();">
+        <img src="polarbear.jpg" alt="polarbear" id="polarbear" onclick="animalOff(); polarbearOn();">
+        <img src="seal.jpg" alt="seal" id="sealthumb" onclick="animalOff(); sealOn();">
+        <img src="shark.jpg" alt="shark" id="sharkthumb" onclick="animalOff(); sharkOn();">
+        <img src="whale.jpg" alt="whale" id="whalethumb" onclick="animalOff(); whaleOn();">
+        <img src="pingu.jpg" alt="pingu" id="pinguthumb" onclick="animalOff(); pinguOn();">
+    </div>
+
+</div>
+<footer>  
+    <br>
+   <div class="copyright">
+    &copy; 2021 </div> 
+  </footer>
+
+</body>
+</html>
