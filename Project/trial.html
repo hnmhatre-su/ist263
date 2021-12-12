@@ -1,86 +1,100 @@
+
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Triangle</title>
+    </head>
+    <body>
+                    <style>
 
-<html lang="en">
-	<head>
-		<title>Floats and Flexbox Practice</title>
-		<meta charset="utf-8">
-		<style>
+<h1 style="text-align:center;">The 7 Continents</h1>
 
+<h4 style="text-align:center;">&#10148; Click on the dots in the image to go to a continent section</h4>
 
-body {background-color: #aaffe6;}
-.part1{display:flex;}
+<map name="continents_map">
 
-.part2 article {padding: 20px;}
-.article1, .article2, .article3 {margin:10px;}
-.article1 { background-color: #5da2ec; border-radius: 1em;}
-.part4 { background-color: #a8cdf5d8; border-radius: 1em;}
-.article2{ background-color: #a8cdf5d8; border-radius: 1em;}
+ <area shape="circle" coords="70,70,10" href="#north_america">
 
-/* trying to add flexbox*/
+ <area shape="circle" coords="133,185,10" href="#south_america">
 
-.part2{display: flex;}
-.part2 article {padding: 20px;}
-.article1, .article2, .article3 {margin:10px;}
+ <area shape="circle" coords="270,137,10" href="#africa">
 
-.article2 {flex:1; order: 2;}
-.article3 {flex:1; order: 1;}
+ <area shape="circle" coords="292,44,10" href="#europe">
 
-.article2{float:left;}
+ <area shape="circle" coords="469,201,10" href="#australia">
 
-.article3 {flex:1; order: 1;}
-		</style>
-	</head>
-	<body>
-        <nav>
-           <center> <a href="skeleton.html"> Home |  </a>
-            <a href="endangered.html"> Endangered | </a>
-            <a href="change.html"> Change </a>
-        </center>
-            <br>
-            <hr>
-        <center><h1>Save Our Oceans</h1></center>
-    
-        <div class="part1">
-            <article>
-            
-                <div class="img1"> <img src="turtle.jpg" width="1600" 
-                    height="600"alt="turtle style="float:right;"></div> 
-        </article>
-        </div>
-        <div class="part4">
-            <article>
-                <p style="font-size:25px;">It is often thought that rainforests are the primary source of oxygen on the planet, but the truth is that rainforests are only responsible
-                 for 28% of the oxygen on earth while oceans are responsible for the 70%. Oceans provide a global force of nature, allowing the inclusion of 95% of all the space available to life. In many ways, the ocean controls our climate. </p>
-            </article>
+ <area shape="circle" coords="374,65,10" href="#asia">
 
-           
-        </div>
+ <area shape="circle" coords="340,267,10" href="#antartica">
 
-        
-        <h2 style="font-size: 40px">Fun Fact!</h2> 
-        <div class="part2">
-            <article class="article1">
-                <img src="ocean.jpg" width="300" 
-                height="300" class="p2img1" alt="ocean">
-            <img src="ocean2.jpg" width="300" 
-                height="300" alt="ocean2">
-               
-                <p style="font-size: 35px;">Did you know that no matter where you live, every ten breaths you take, seven come from the ocean!</p> <br>
-                <p style="font-size: 35px;">About 94 percent of the earth’s wildlife is found in the ocean.</p>
-            </article>
-            <article class="article2">
-                <img src="icecap.jpg" width="600" 
-                height="400" class="p2img2" alt="icecap">                
-                <p style="font-size:25px;">As the climate responds to decades of increasing carbon emissions, 
-                the store of energy and heat from the atmosphere builds up in the ocean. If we reach a tipping point, we will likely see more extreme weather events, changing ocean currents,
-                 rising sea levels and temperatures, and melting of sea ice and ice sheets</p>     
-                 
-                 
-            </article>
-            <article class="article3">
-       
-                
-            </article>
-        </div>
-	</body>
+</map>
+
+<figure style="text-align:center;">
+
+    <img usemap="#continents_map" src=https://bit.ly/2bgFrvL width="600px" />
+
+    <figcaption>World Map</figcaption>
+
+</figure>
+
+<div>
+
+    <h3 id="africa">Africa</h3>
+
+    <p>Our locations in Africa</p>
+
+</div>
+
+<div>
+
+    <h3 id="asia">Asia</h3>
+
+    <p>Our locations in Asia</p>
+
+</div>
+
+<div>
+
+    <h3 id="europe">Europe</h3>
+
+    <p>Our locations in Europe.</p>
+
+</div>
+
+<div>
+
+    <h3 id="south_america">South America</h3>
+
+    <p>Our locations in South America.</p>
+
+</div>
+
+<div>
+
+    <h3 id="north_america">North America</h3>
+
+    <p>Our locations in North America:</p>
+
+</div>
+
+<div>
+
+    <h3 id="antartica">Antarctica</h3>
+
+    <p>Our locations in Antarctica.</p>
+
+</div>
+
+<div>
+
+    <h3 id="australia">Australia</h3>
+
+    <p>Our locations in Australia.</p>
+
+</div>
+
+</head>
+</body>
+</style>
 </html>
